@@ -64,11 +64,18 @@ Edit softkvm-switch.bat
 
 (3) Repeat the process on the other computer.
 
+Alternatively, you can assign the launch of the batch file to a hotkey, using LogiOptions software.  I used the calculator button on my K860 to launch the script to toggle between both  computers.
+
 
 ## A note about the exe files in this repo 
 
 HidAPITester.exe and WinDDCUtil.exe are both github project and can be downloaded from there. I have included them here for convenience.
 
+## Limitations
+Apparently, some monitors don't respond correctly to WinDDCUtil's input switcher commands. 
+See here if your monitor is affected: https://www.ddcutil.com/monitor_notes/
+
+Obviouysly, there's no way to switch USB devices like a webcam or headset. For this you'll need a real KVM hardware switch.
 
 ## References:
 
